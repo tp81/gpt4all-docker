@@ -1,6 +1,6 @@
 FROM ubuntu
 
-RUN apt-get update && apt-get install -y wget
+RUN apt-get update && apt-get install -y wget libfontconfig
 
 RUN wget https://gpt4all.io/installers/gpt4all-installer-linux.run
 
